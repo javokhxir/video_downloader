@@ -2,7 +2,7 @@ import telebot
 import instaloader
 import os
 
-BOT_TOKEN = "8392222119:AAH4jhbiErk1Gq_Kx2LP3Moj6EsT93RPGzY"
+BOT_TOKEN = ""
 
 bot = telebot.TeleBot(BOT_TOKEN)
 
@@ -66,3 +66,4 @@ def echo_all(message):
         bot.reply_to(message, "video yuklashda xatolik yuz berdi")
 
 bot.infinity_polling()
+
